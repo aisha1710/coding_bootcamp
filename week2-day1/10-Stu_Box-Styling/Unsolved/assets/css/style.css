@@ -84,6 +84,9 @@ footer {
   width: 100%;
 }
 
+.rotate {
+  transform: revert;
+}
 @media screen and (max-width: 768px) {
   main,
   nav {

@@ -12,7 +12,12 @@ header {
   background-color: #13293d;
   color: #fff;
 }
-
+#tooltip {
+  color: black;
+}
+#tooltip:hover {
+  cursor: grab;
+}
 h1 {
   font-size: 200%;
 }

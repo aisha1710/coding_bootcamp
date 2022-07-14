@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-  color: #b9C6ae;
+  color: #b9c6ae;
   font-weight: bold;
   text-decoration: none;
 }
@@ -101,14 +101,17 @@ select {
   max-width: 100%;
 }
 
-.text-input, select {
+.text-input,
+select {
   padding: 1%;
   outline: none;
-  border: 1.2px solid #b9C6ae;
+  border: 1.2px solid #b9c6ae;
 }
 
-.text-input:hover, .checkbox:hover, 
-select:hover, button:hover {
+.text-input:hover,
+.checkbox:hover,
+select:hover,
+button:hover {
   box-shadow: 0 0 5px #999;
 }
 
@@ -134,6 +137,12 @@ select:hover, button:hover {
 
 .flex-row input {
   margin-right: 2%;
+}
+
+.checkbox:checked + label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* What does this selector do? */
